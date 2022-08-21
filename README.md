@@ -8,6 +8,11 @@ Use Machine Learning and Neural Networks to create a binary classifier that can 
 
 Use scikit-learn's `StandardScaler()` to preprocess the dataset before compiling, traning, and evaluating the neural network model.
 
+* What variable(s) are the target(s) for your model?
+    - The `IS-SUCCESSFUL` column will be the target for our model
+* What variable(s) are the feature(s) for your model?
+    - The other columns within the dataset will act as variables in the establishment of our model.
+
 ### Step 2: Compile, Train, and Evaluate the Model
 
 Using TensorFlow and Keras, we will design a neural network, or deep learning model, to create a binary classification model that can predict if an organization will be successful if offered funding.
